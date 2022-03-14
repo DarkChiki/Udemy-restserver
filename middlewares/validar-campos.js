@@ -11,8 +11,6 @@ const validarCampos = ( req = request, res = response, next ) => {
     next();
 }
 
-
-
 module.exports = {
     validarCampos
 }
