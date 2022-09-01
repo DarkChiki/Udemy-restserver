@@ -40,7 +40,7 @@ const usuariosPUT = async ( req = request, res = response ) => {
 
     const usuario = await Usuario.findByIdAndUpdate( id, resto )
 
-    res.status(500).json({
+    res.status(200).json({
         ok: true,
         msg: 'Put Api - Controlador',
         usuario
